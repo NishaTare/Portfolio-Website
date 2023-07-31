@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+</head>
+<style>
+    header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: aqua;
+  }
+  nav .left{
+    font-size: large;
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li{
+    list-style: none;
+    margin: 0 23px;
+  
+  }
+  nav ul li a:hover{
+    background:line;
+    border-radius:6px;
+    color:#000;
+  }
+  h1 {
+    color: #1d0909;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding-top: 50px;
+    width: 100%;
+    font-family: cursive;
+}
+/* Reset some default styles for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  flex: 0 0 calc(50% - 20px);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project-links a:hover {
+  background-color: #0056b3;
+}
+
+
+</style>
+<body>
+    <header>  
+        <nav>
+            <div class="left">PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="./index.html"> HOME </a></li>
+                    <li><a href="./About.html">ABOUT</a></li>
+                    <li><a href="./certificates.html">ACADEMICS</a></li>
+                    <li><a href="./projects.html">PROJECTS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+     </header>
+     <h1>MY PROJECTS</h1>
+     <main>
+        <section class="project">
+          <h2>Traveling Website- ATP(Aapka Travel Planner)</h2>
+          <p>
+            Our newly envisioned traveling website project aims to revolutionize the way you plan and embark on your adventures. With a sleek and intuitive user interface, Wanderlust Explorer offers an extensive range of destination guides, insider tips, and handpicked itineraries to inspire your wanderlust. Whether you're a seasoned globetrotter or a first-time explorer, our platform caters to all travel preferences and budgets. Get ready to discover hidden gems, book personalized travel packages, and connect with like-minded travelers in our vibrant community forums. We believe that travel is a transformative experience, and with Wanderlust Explorer, we endeavor to make your journey unforgettable from start to finish. So, buckle up, and let your imagination soar as you plan your next unforgettable adventure with us!
+          </p>
+          <img src="../images/project1home(1).jpeg" alt="Project 1 Screenshot">
+          <img src="../images/project1home2.jpeg" alt="Project 2 Screenshot">
+          <img src="../images/project1home (3).jpeg" alt="Project 3 Screenshot">
+          <img src="../images/project1home (4).jpeg" alt="Project 4 Screenshot">
+          <div class="project-links">
+            <a href="https://github.com/your-username/project1" target="_blank">GitHub Repository</a>
+            <a href="https://project1-demo.com" target="_blank">Live Demo</a>
+          </div>
+        </section>
+        
+      </main> 
+</body>
+</html>

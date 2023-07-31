@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine; 
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure the navbar is above other elements */
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: aqua;
+}
+nav .left{
+  font-size: large;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+nav ul li{
+  list-style: none;
+  margin: 0 23px;
+
+}
+nav ul li a:hover{
+  background:line;
+  border-radius:6px;
+  color:#000;
+}
+
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.firstsection div{
+    width: 50%;
+}
+.leftsection{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.animated-text {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 3s ease-out forwards ;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+    margin-left: 100px;
+  }
+.button:hover {
+    background-color: #45a049;
+  }
+
+.rightsection img{
+    width: 60%;
+    height: 80%;
+    margin:30px 0;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+footer {
+    background-color: lightgray;
+    padding: 20px ;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    text-align: left;
+  }
+  
+  .footer-content ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .footer-content li {
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .footer-content li:first-child {
+    margin-left: 0;
+    text-align: center;
+  }
